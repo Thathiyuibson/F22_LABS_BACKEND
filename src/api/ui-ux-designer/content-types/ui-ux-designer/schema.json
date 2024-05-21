@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "collectionName": "ui_ux_designers",
+  "info": {
+    "singularName": "ui-ux-designer",
+    "pluralName": "ui-ux-designers",
+    "displayName": "UI/UX Designer",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "who_we_are": {
+      "type": "text"
+    },
+    "responsibilities": {
+      "type": "richtext"
+    },
+    "title": {
+      "type": "richtext"
+    }
+  }
+}

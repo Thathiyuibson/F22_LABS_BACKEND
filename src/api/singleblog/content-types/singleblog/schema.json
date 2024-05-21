@@ -1,0 +1,86 @@
+{
+  "kind": "collectionType",
+  "collectionName": "singleblogs",
+  "info": {
+    "singularName": "singleblog",
+    "pluralName": "singleblogs",
+    "displayName": "singleblog",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "cover": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "para1": {
+      "type": "richtext"
+    },
+    "heading2": {
+      "type": "string"
+    },
+    "para2": {
+      "type": "blocks"
+    },
+    "heading3": {
+      "type": "string"
+    },
+    "para3": {
+      "type": "blocks"
+    },
+    "heading4": {
+      "type": "string"
+    },
+    "img1": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "heading5": {
+      "type": "string"
+    },
+    "para5": {
+      "type": "blocks"
+    },
+    "para4": {
+      "type": "richtext"
+    },
+    "heading6": {
+      "type": "string"
+    },
+    "para6": {
+      "type": "richtext"
+    },
+    "heading7": {
+      "type": "string"
+    },
+    "para7": {
+      "type": "richtext"
+    },
+    "tableofcontent": {
+      "type": "richtext"
+    },
+    "author": {
+      "type": "richtext"
+    }
+  }
+}
